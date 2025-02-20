@@ -3,8 +3,22 @@
   <remote name="github" fetch="https://github.com" />
   <project 
     name="corviv/test-project" 
-    path="test" 
+    path="group1" 
     groups="group1"
+    remote="github"
+    revision="main"
+  />
+  <project 
+    name="corviv/test-project" 
+    path="group2" 
+    groups="group2"
+    remote="github"
+    revision="main"
+  />
+  <project 
+    name="corviv/test-project" 
+    path="." 
+    groups="group3"
     remote="github"
     revision="main"
   />
