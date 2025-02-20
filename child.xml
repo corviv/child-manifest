@@ -2,7 +2,7 @@
 <manifest>
   <remote name="github" fetch="https://github.com" />
   <project 
-    name="test-project" 
+    name="corviv/test-project" 
     path="test" 
     groups="group1"
     remote="github"
