@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project 
+    name="test-project" 
+    path="test" 
+    groups="group1"
+    remote="github"
+    revision="main"
+  />
+</manifest>
