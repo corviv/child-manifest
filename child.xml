@@ -18,8 +18,15 @@
   <project 
     name="group3" 
     path="group3" 
-    groups="group3"
+    groups="group3,common"
     remote="gitlab"
     revision="main"
+  />
+  <project
+    name="subgroup/group1"
+    path="subgroup/group1"
+    groups="group1,common"
+    revision="main"
+    remote="gitlab"
   />
 </manifest>
