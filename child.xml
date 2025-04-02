@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com" />
+  <remote name="gitlab" fetch="https://gitlab.com/vpush-test-project" />
   <project 
-    name="corviv/test-project" 
+    name="group1" 
     path="group1" 
     groups="group1"
-    remote="github"
+    remote="gitlab"
     revision="main"
   />
   <project 
-    name="corviv/test-project" 
+    name="group2" 
     path="group2" 
     groups="group2"
-    remote="github"
+    remote="gitlab"
     revision="main"
   />
   <project 
-    name="corviv/test-project" 
-    path="." 
+    name="group3" 
+    path="group3" 
     groups="group3"
-    remote="github"
+    remote="gitlab"
     revision="main"
   />
 </manifest>
